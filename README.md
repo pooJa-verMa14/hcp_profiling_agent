@@ -80,8 +80,8 @@ Excel/CSV: pandas, openpyxl, xlrd
 
 PDF: reportlab or weasyprint (HTML→PDF)
 
-cd /Users/alokrajgupta/Downloads/healthcare-ai-system/backend && python3 -m venv .venv && source .venv/bin/activate && python -m pip install --upgrade pip >/dev/null 2>&1 && python -m pip install -r requirements.txt | cat
+cd /Users/poojaverma/Downloads/healthcare-ai-system/backend && python3 -m venv .venv && source .venv/bin/activate && python -m pip install --upgrade pip >/dev/null 2>&1 && python -m pip install -r requirements.txt | cat
 
-cd /Users/alokrajgupta/Downloads/healthcare-ai-system/backend && source .venv/bin/activate && python -m pip install -r requirements.txt | cat
+cd /Users/poojaverma/Downloads/healthcare-ai-system/backend && source .venv/bin/activate && python -m pip install -r requirements.txt | cat
 
-d /Users/alokrajgupta/Downloads/healthcare-ai-system/backend && source .venv/bin/activate && pkill -f "uvicorn app.main:app" || true && uvicorn app.main:app --host 127.0.0.1 --port 8001 --reload | cat
+d /Users/poojaverma/Downloads/healthcare-ai-system/backend && source .venv/bin/activate && pkill -f "uvicorn app.main:app" || true && uvicorn app.main:app --host 127.0.0.1 --port 8001 --reload | cat
